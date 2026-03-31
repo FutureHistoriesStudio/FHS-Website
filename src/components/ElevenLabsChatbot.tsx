@@ -4,7 +4,6 @@ const ELEVENLABS_SCRIPT_ID = 'elevenlabs-convai-script';
 const ELEVENLABS_WIDGET_SRC = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
 
 const agentId = import.meta.env.VITE_ELEVENLABS_AGENT_ID;
-const voiceId = import.meta.env.VITE_ELEVENLABS_VOICE_ID;
 
 function ensureWidgetScript() {
   if (document.getElementById(ELEVENLABS_SCRIPT_ID)) {
@@ -39,7 +38,6 @@ export function ElevenLabsChatbot() {
         dismissible="true"
         expand-text="Ask FHS"
         action-text="Need help?"
-        override-voice-id={voiceId}
         avatar-orb-color-1="#f0cf18"
         avatar-orb-color-2="#f28f5e"
       ></elevenlabs-convai>

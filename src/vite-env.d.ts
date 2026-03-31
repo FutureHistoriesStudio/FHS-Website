@@ -7,7 +7,6 @@ declare module '*.png' {
 
 interface ImportMetaEnv {
   readonly VITE_ELEVENLABS_AGENT_ID?: string;
-  readonly VITE_ELEVENLABS_VOICE_ID?: string;
 }
 
 interface ImportMeta {
@@ -21,7 +20,6 @@ declare namespace JSX {
       'dismissible'?: string;
       'expand-text'?: string;
       'action-text'?: string;
-      'override-voice-id'?: string;
       'avatar-orb-color-1'?: string;
       'avatar-orb-color-2'?: string;
     };

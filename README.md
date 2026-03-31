@@ -23,7 +23,6 @@ The repository includes a GitHub Actions workflow at `.github/workflows/deploy.y
 Set these repository variables before deploying so the ElevenLabs widget is available in production:
 
 - `VITE_ELEVENLABS_AGENT_ID`
-- `VITE_ELEVENLABS_VOICE_ID`
 
 After the repo is pushed, enable GitHub Pages to use GitHub Actions as the source.
 
