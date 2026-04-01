@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const ELEVENLABS_SCRIPT_ID = 'elevenlabs-convai-script';
 const ELEVENLABS_WIDGET_SRC = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
-const CHATBOT_AVATAR_URL = 'https://raw.githubusercontent.com/FutureHistoriesStudio/FHS-Website/main/images/Union.png';
+const CHATBOT_AVATAR_URL = 'https://raw.githubusercontent.com/FutureHistoriesStudio/FHS-Website/main/images/FHS%20Logo%20middle.png';
 
 const agentId = import.meta.env.VITE_ELEVENLABS_AGENT_ID;
 
