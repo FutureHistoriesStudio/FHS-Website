@@ -20,6 +20,7 @@ declare namespace JSX {
       'dismissible'?: string;
       'expand-text'?: string;
       'action-text'?: string;
+      'start-call-text'?: string;
       'avatar-orb-color-1'?: string;
       'avatar-orb-color-2'?: string;
     };

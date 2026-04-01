@@ -38,6 +38,7 @@ export function ElevenLabsChatbot() {
         dismissible="true"
         expand-text="Ask about FHS"
         action-text="Explore Future Histories Studio"
+        start-call-text="Talk with the FHS guide"
         avatar-orb-color-1="#f0cf18"
         avatar-orb-color-2="#f28f5e"
       ></elevenlabs-convai>
