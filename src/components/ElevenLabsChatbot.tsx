@@ -36,8 +36,8 @@ export function ElevenLabsChatbot() {
       <elevenlabs-convai
         agent-id={agentId}
         dismissible="true"
-        expand-text="Ask FHS"
-        action-text="Need help?"
+        expand-text="Ask about FHS"
+        action-text="Explore Future Histories Studio"
         avatar-orb-color-1="#f0cf18"
         avatar-orb-color-2="#f28f5e"
       ></elevenlabs-convai>
