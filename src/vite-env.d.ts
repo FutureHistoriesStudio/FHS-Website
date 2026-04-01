@@ -21,6 +21,7 @@ declare namespace JSX {
       'expand-text'?: string;
       'action-text'?: string;
       'start-call-text'?: string;
+      'avatar-image-url'?: string;
       'avatar-orb-color-1'?: string;
       'avatar-orb-color-2'?: string;
     };

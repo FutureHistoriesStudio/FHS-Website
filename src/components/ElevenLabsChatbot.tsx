@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 
 const ELEVENLABS_SCRIPT_ID = 'elevenlabs-convai-script';
 const ELEVENLABS_WIDGET_SRC = 'https://unpkg.com/@elevenlabs/convai-widget-embed';
+const CHATBOT_AVATAR_URL = 'https://raw.githubusercontent.com/FutureHistoriesStudio/FHS-Website/main/images/Union.png';
 
 const agentId = import.meta.env.VITE_ELEVENLABS_AGENT_ID;
 
@@ -39,6 +40,7 @@ export function ElevenLabsChatbot() {
         expand-text="Ask about FHS"
         action-text="Explore Future Histories Studio"
         start-call-text="Talk with the FHS guide"
+        avatar-image-url={CHATBOT_AVATAR_URL}
         avatar-orb-color-1="#f0cf18"
         avatar-orb-color-2="#f28f5e"
       ></elevenlabs-convai>
